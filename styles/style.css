@@ -275,6 +275,11 @@ footer .footer a {
   margin-top: 80px;
 }
 
+.between {
+  background-color: #09153b;
+  padding: 0 !important;
+}
+
 /*
 Media Queries
 */
