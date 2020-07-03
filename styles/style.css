@@ -1,0 +1,468 @@
+/*
+Common CSS
+*/
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+}
+
+.content {
+  width: 70%;
+  padding: 0 !important;
+  margin: 0 auto;
+}
+
+/*
+Nav
+*/
+.navbar-nav .nav-item {
+  padding: 0 15px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  text-transform: capitalize !important;
+  font-weight: 400 !important;
+  color: #ffffff !important;
+  padding: 0 8px 0;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #2c59e8 !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/*
+First Section
+*/
+.first {
+  background: url(../images/background.png) center top no-repeat;
+  background-color: #09153b;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 50px 0;
+}
+
+.first .front-heading h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 700;
+  width: 60%;
+  padding-top: 240px;
+}
+
+.first .front-heading p {
+  width: 60%;
+  font-size: 22px;
+  margin-top: 165px;
+  line-height: 140%;
+}
+
+.first .front-heading h2 {
+  color: #42c9c0 !important;
+  width: 60%;
+  font-size: 40px;
+  margin-top: 315px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.first .services {
+  margin-top: 80px;
+}
+
+.first .services .services-col {
+  padding: 0 20px;
+}
+
+.first .services .middle {
+  margin-top: 50px;
+}
+
+.first .services h3 {
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 30px 0 20px;
+}
+
+.first .services p {
+  font-size: 18px;
+}
+
+.first .services h6 {
+  margin-top: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.first .services a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.first .services a:hover {
+  color: #42c9c0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.first .services .heading-line {
+  border-top: 2px solid #42c9c0;
+  width: 120px;
+}
+
+/*
+Second Section
+*/
+.second {
+  color: #414141;
+}
+
+.second .heading-part h1 {
+  color: #4850be;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 140px;
+  width: 80%;
+}
+
+.second .heading-part p {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 80px;
+  width: 46%;
+}
+
+.second .badges-description {
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+.second .testimonials {
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+
+.second .testimonials .testimonials-col {
+  padding: 0;
+}
+
+.second .testimonials .testimonials-col h4 {
+  font-size: 18px;
+  color: #42c9c0;
+}
+
+.second .testimonials .testimonials-col .bold {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.second .testimonials .testimonials-col p {
+  font-style: italic;
+  color: black;
+  font-size: 16px;
+  line-height: 17px;
+  max-width: 90%;
+}
+
+/*
+Hexagon
+*/
+.hexagon {
+  position: relative;
+  width: 360px;
+  height: 207.85px;
+  margin: 103.92px 0;
+  border-left: solid 2px #4850be;
+  border-right: solid 2px #4850be;
+}
+
+.hexagon img {
+  margin-top: -112px;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 254.56px;
+  height: 254.56px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 50.7208px;
+}
+
+.hexagon:before {
+  top: -127.2792px;
+  border-top: solid 2.8284px #4850be;
+  border-right: solid 2.8284px #4850be;
+}
+
+.hexagon:after {
+  bottom: -127.2792px;
+  border-bottom: solid 2.8284px #4850be;
+  border-left: solid 2.8284px #4850be;
+}
+
+/*
+Third Section
+*/
+.third {
+  padding: 350px 0 150px;
+  background-color: #09153b;
+}
+
+.third .left-col h1 {
+  color: #42c9c0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.third .left-col p {
+  font-size: 16px;
+  line-height: 20px;
+  width: 95%;
+}
+
+/*
+Forth Selection
+*/
+.forth {
+  background-color: #202c55;
+  padding: 100px 0 100px;
+}
+
+.forth .extras h1 {
+  text-transform: uppercase;
+  color: #42c9c0;
+  font-size: 48px;
+  font-weight: 700;
+  width: 50%;
+}
+
+.forth .extras-badges .middle {
+  margin-top: 90px;
+}
+
+.forth .extras-badges h3 {
+  margin: 30px 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+footer {
+  background-color: #09153b;
+}
+
+footer .footer {
+  padding: 50px 0 60px;
+}
+
+footer .footer button {
+  width: 320px;
+  height: 65px;
+  background-color: #4850be;
+  border-radius: 0;
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+footer .footer a {
+  margin-top: 80px;
+}
+
+/*
+Media Queries
+*/
+@media (max-width: 1000px) {
+  .content {
+    width: 100% !important;
+    position: relative;
+  }
+}
+
+@media (max-width: 768px) {
+  .first {
+    padding-bottom: 10px !important;
+  }
+  .front-heading h1 {
+    font-size: 46px !important;
+    width: 80% !important;
+    padding-top: 80px !important;
+  }
+  .front-heading p {
+    width: 80% !important;
+    font-size: 16px !important;
+    margin-top: 100px !important;
+  }
+  .front-heading h2 {
+    width: 80% !important;
+    font-size: 32px !important;
+    margin-top: 100px !important;
+  }
+  .services .services-col {
+    margin-bottom: 50px;
+  }
+  .services .middle {
+    margin-top: 0 !important;
+  }
+  .services img {
+    max-width: 50%;
+  }
+  .services p {
+    font-size: 16px !important;
+  }
+  .services h6 {
+    margin-top: 20px !important;
+  }
+  .heading-part h1 {
+    font-size: 36px !important;
+    padding-top: 60px !important;
+    width: 100% !important;
+  }
+  .heading-part p {
+    font-size: 18px !important;
+    margin-top: 30px !important;
+    width: 100% !important;
+  }
+  .badges-description {
+    font-size: 22px !important;
+  }
+  .third {
+    padding: 100px 0 50px !important;
+  }
+  .third img {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .third .left-col {
+    text-align: center !important;
+  }
+  .third .left-col h1 {
+    margin-bottom: 50px !important;
+  }
+  .third .left-col p {
+    text-align: center !important;
+    width: 90% !important;
+    display: inline-block !important;
+    margin-bottom: 40px !important;
+  }
+  .testimonials {
+    margin-bottom: 80px !important;
+  }
+  .hexagon {
+    position: relative;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 0 40px 0 !important;
+    border-left: none !important;
+    border-right: none !important;
+  }
+  .hexagon img {
+    margin-top: 0 !important;
+  }
+  .hexagon h4 {
+    font-size: 20px !important;
+  }
+  .hexagon .bold {
+    margin-top: 10px !important;
+  }
+  .hexagon p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: relative;
+    z-index: 0;
+    width: 0 !important;
+    height: 0 !important;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 0 !important;
+  }
+  .hexagon:before {
+    top: 0 !important;
+    border-top: none !important;
+    border-right: none !important;
+  }
+  .hexagon:after {
+    bottom: 0px !important;
+    border-bottom: none !important;
+    border-left: none !important;
+  }
+  .forth {
+    padding: 60px 0 50px !important;
+  }
+  .forth .extras h1 {
+    font-size: 36px !important;
+    width: 90% !important;
+  }
+  .forth .extras h4 {
+    margin-top: 20px !important;
+    font-size: 18px !important;
+    width: 60%;
+  }
+  .forth .extras-badges {
+    margin-top: 50px;
+  }
+  .forth .extras-badges .middle {
+    margin-top: 0px !important;
+  }
+  .forth .extras-badges img {
+    width: 60% !important;
+  }
+  .forth .extras-badges h3 {
+    margin: 30px 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .forth .services-col {
+    margin-bottom: 50px;
+  }
+  .footer {
+    padding: 50px 0 60px;
+  }
+  .footer button {
+    width: 280px !important;
+    font-size: 18px !important;
+  }
+  .footer a {
+    margin-top: 20px !important;
+  }
+}
+
+@media (min-width: 575px) {
+  .navbar-nav li ~ li {
+    border-left: 2px solid #42c9c0;
+  }
+}
+
+@media (max-width: 991px) {
+  .third {
+    padding: 100px 0 50px !important;
+  }
+  .third img {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .third .left-col {
+    text-align: center !important;
+  }
+  .third .left-col h1 {
+    margin-bottom: 50px !important;
+  }
+  .third .left-col p {
+    text-align: center !important;
+    width: 90% !important;
+    display: inline-block !important;
+    margin-bottom: 40px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
