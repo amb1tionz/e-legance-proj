@@ -42,7 +42,12 @@ Nav
 First Section
 */
 .first {
-  background: url(../images/background.png) center top no-repeat;
+  background: url(../images/background-fixed.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  //background-attachment: fixed;
+
   background-color: #09153b;
   width: 100%;
   margin: 0;
