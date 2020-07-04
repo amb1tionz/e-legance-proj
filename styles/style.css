@@ -251,6 +251,11 @@ Second Section
   }
   .hexa-content h4 {
     margin-bottom: 0 !important;
+    font-size: 16px !important;
+  }
+  .hexa-content p {
+    margin-top: 0 !important;
+    font-size: 13px !important;
   }
 }
 
