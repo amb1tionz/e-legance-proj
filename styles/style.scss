@@ -15,6 +15,8 @@ body {
   margin: 0 auto;
 }
 
+
+
 /*
 Nav
 */
@@ -145,71 +147,79 @@ Second Section
   .testimonials {
     margin-top: 100px;
     margin-bottom: 300px;
+  }
+}
 
-    .testimonials-col {
-      padding: 0;
+.hexa-content {
+  position: absolute;
+  top: 110px;
+  h4 {
+    font-size: 18px;
+    color: $bigheading;
+  }
+  .bold {
+    margin-top: 15px;
+    font-weight: 700;
+  }
+  p {
+    font-style: italic;
+    color: black;
+    font-size: 16px;
+    line-height: 17px;
+    margin: 0 10px;
+  }
+}
 
-      h4 {
-        font-size: 18px;
-        color: $bigheading;
-      }
-      .bold {
-        margin-top: 15px;
-        font-weight: 700;
-      }
-      p {
-        font-style: italic;
-        color: black;
-        font-size: 16px;
-        line-height: 17px;
-        max-width: 90%;
-      }
+@media (max-width: 1450px) {.hexa-content {top: 80px;}}
+@media (max-width: 1350px) {.hexa-content {top: 70px;p {margin-top: 8px !important;}}}
+@media (max-width: 1300px) {.hexa-content {p {font-size: 14px !important;}}}
+@media (max-width: 1200px) {.content {width: 90% !important;}}
+
+@media (max-width: 991px) {
+  .content {
+    width: 100% !important;
+  }
+  .hexa-container {
+    text-align: center !important;
+    img {width: 80%;}
+  }
+  .hexa-content {
+    top: 150px;
+    width: 80%;
+    left: 10%;
+    h4 {
+      font-size: 28px !important;
+    }
+    p {
+      font-size: 24px !important;
+      line-height: normal !important;
     }
   }
 }
 
-/*
-Hexagon
-*/
-.hexagon {
-  position: relative;
-  width: 360px; 
-  height: 207.85px;
-  margin: 103.92px 0;
-  border-left: solid 2px #4850be;
-  border-right: solid 2px #4850be;
-
-  img {
-    margin-top: -112px;
+@media (max-width: 767px) {
+  .hexa-content {
+    top: 100px;
+    h4 {font-size: 24px !important;}
+    p {font-size: 18px !important;}
   }
 }
 
-.hexagon:before,
-.hexagon:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  width: 254.56px;
-  height: 254.56px;
-  -webkit-transform: scaleY(0.5774) rotate(-45deg);
-  -ms-transform: scaleY(0.5774) rotate(-45deg);
-  transform: scaleY(0.5774) rotate(-45deg);
-  background-color: inherit;
-  left: 50.7208px;
+@media (max-width: 450px) {
+  .hexa-content {
+    top: 80px;
+    h4 {font-size: 18px !important;}
+    p {font-size: 14px !important;}
+  }
 }
-
-.hexagon:before {
-  top: -127.2792px;
-  border-top: solid 2.8284px #4850be;
-  border-right: solid 2.8284px #4850be;
+@media (max-width: 400px) {
+  .hexa-content {
+    top: 65px;
+    h4 {
+      margin-bottom: 0 !important;
+    }
+  }
 }
-
-.hexagon:after {
-  bottom: -127.2792px;
-  border-bottom: solid 2.8284px #4850be;
-  border-left: solid 2.8284px #4850be;
-}
-
 
 /*
 Third Section
