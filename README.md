@@ -13,9 +13,9 @@ PSD 2 html/css/js/responsive conversion
 * Реализация на респонсив и мобилен изглед.
 
 ### Технологии 
-[x] HTML5
-[x] CSS (за предпочитане генериран със Sass)
-[x] jQuery (ако е нужно)
-[x] Bootstrap (не заддължително)
+- [x] HTML5
+- [x] CSS (за предпочитане генериран със Sass)
+- [x] jQuery (ако е нужно)
+- [x] Bootstrap (не заддължително)
 
 ### [Линк към проекта](https://unheard-adherence.000webhostapp.com/)
